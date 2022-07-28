@@ -1,0 +1,41 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: goldenrod;
+}
+
+img {
+    width: 250px;
+    justify-content: start;
+}
+
+.menu{
+    padding: 0;
+    background-color: darkblue;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+}
+
+.menu li a{
+    color: goldenrod;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.menu li a:hover{
+    background-color: chocolate;
+}
+
+.menu li{
+    display: inline-block;
+    align-content: space-between;
+    
+}
+
